@@ -2,4 +2,4 @@ from MonteCarlo import MonteCarlo
 
 monteCarlo = MonteCarlo()
 
-monteCarlo.calculate(50)
+print(monteCarlo.calculate(1000000000))
