@@ -2,4 +2,5 @@ from MonteCarlo import MonteCarlo
 
 monteCarlo = MonteCarlo()
 
-print(monteCarlo.calculate(1000000000))
+for i in range(10):
+    print(monteCarlo.calculate(1_000_000_000))
