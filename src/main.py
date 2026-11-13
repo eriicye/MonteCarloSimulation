@@ -2,5 +2,8 @@ from MonteCarlo import MonteCarlo
 
 monteCarlo = MonteCarlo()
 
-for i in range(10):
-    print(monteCarlo.calculate(1_000_000_000))
+user_input = input("Enter in the amount of times you would like to run the simulation: ")
+
+user_input = int(user_input)
+
+print(monteCarlo.calculate(user_input))
